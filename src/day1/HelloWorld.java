@@ -18,7 +18,7 @@ public class HelloWorld {
 		//표준 출력 메소드
 		// TODO Auto-generated method stub
 		System.out.println("Hello World!");
-		System.out.println("Hello World!");
+	// println 에서 ln은 일종의 enter역할을 한다.
 	}
 
 }
