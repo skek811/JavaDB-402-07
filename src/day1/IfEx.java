@@ -17,12 +17,20 @@ public class IfEx {
 		 * if와 else if의 순서가 중요함.   
 		 */
 		int num = 0;
+	
 		if(num == 0){
 			System.out.println("0입니다.");
+			//만약 num가 0이면. 콘솔에 0입니다.를 출력하세요.
 		}else if(num % 2 == 0){
 			System.out.println(num+"는 짝수입니다.");
+			//만약 num가 0이 아니고, 
+			//num을 2로 나누었을때 0과 같다면,
+			//콘솔에 짝수입니다.를 출력하세요.
 		}else{
 			System.out.println(num+"는 홀수입니다.");
+			//만약 num이 0이 아니고,
+			//num을 2로 나누었을때 0과 같지 않다면
+			//콘솔에 홀수입니다. 를 출력하세요.
 		}
 	}
 
