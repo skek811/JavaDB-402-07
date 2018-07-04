@@ -122,7 +122,7 @@ public class OperatorEx1 {
 		num3 = num1 << 2;
 		System.out.println("15 << 2 : " + num3);
 		// << 일경우 해당숫자로 2를 재곱한만큼 곱한값이 나온다
-		// ex) 15<<3 = 15*2^3 = 120
+		// ex) 15<<3 = 15*2^3 = 15*8 = 120
 		
 		num1 = 15;
 		num3 = num1 >> 1;
