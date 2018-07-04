@@ -18,6 +18,8 @@ public class SwitchEX1 {
 		 *    실행문3;
 		 * }
 		 * 이 형태를 가진다.
+		 * if문과 매우 유사하지만 switch문의 경우는 변수의값이 제한적일때
+		 * 예를들어 1월부터 12월 같은 경우일때 주로 사용한다.
 		 * 예제로 num의 값이 0이면 콘솔에 0입니다. 라고 출력
 		 * num의 값이 1이면 콘솔에 1입니다. 라고 출력
 		 * num의 값이 0과 1이 아니면 콘솔에 0과 1이 아닙니다. 라고 출력하는 switch문을 작성해보자
@@ -25,6 +27,7 @@ public class SwitchEX1 {
 		int num = 2;
 		switch(num){
 		case 0:// if(num == 0)
+			   // case에는 연산자가 들어갈수 없다.
 			System.out.println("0입니다.");
 			break;
 		case 1:// else if(num == 1)
