@@ -4,7 +4,8 @@ public class IfEx {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		/* 조건문
+		/* 조건식 : 결과가 참 또는 거짓이 나오는 식
+		 * 조건문
 		 * if(조건식1){
 		 * 	     실행문1; // 조건식1이 참 일경우 실행됨
 		 * }

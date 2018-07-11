@@ -17,7 +17,8 @@ public class ForEX5 {
 		}
 		if(cnt==2){
 			System.out.println(num1+"는 소수");
-		}else{
+		}
+		else{
 			System.out.println(num1+"는 합성수");
 		}
 		//방법2
@@ -25,14 +26,12 @@ public class ForEX5 {
 			if(num1%i==0){
 				break;
 			}
-			
 		}
 		if(i==1){
 			System.out.println(num1+"는 소수");
-		}else{
+		}
+		else{
 			System.out.println(num1+"는 합성수");
 		}
-
 	}
-
 }
