@@ -161,9 +161,9 @@ public class Exam1 {
 			}
 			System.out.println();
 		}
+		System.out.println();
 		
 		
-
 	}
 
 }
