@@ -10,7 +10,7 @@ public class ArrayEX3 {
 		int div[] = new int[10];
 		int i= 1;
 		int cnt=0;
-		for( i=1;i<=num;i++){
+		for( i=1; i<=num; i++){
 			if(num%i==0){
 				//System.out.print(i+" ");
 				div[cnt]=i;
@@ -20,7 +20,6 @@ public class ArrayEX3 {
 			}
 			
 		}
-		i=0;
 		for(i=0; i<cnt; i++){
 			System.out.print(div[i]+" ");
 		}
