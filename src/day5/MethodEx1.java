@@ -18,9 +18,16 @@ public class MethodEx1 {
 	 * 출력 : 외부에서 들어온 정보를 바탕으로 나온 결과물
 	 */
 	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("num의 값을 지정해주세요.");
+		int num = scan.nextInt();
+		System.out.println("num2의 값을 지정해주세요.");
+		int num2 = scan.nextInt();
+		System.out.println("연산자를 지정해주세요.");
+		char op = scan.next().charAt(0);
 		// TODO Auto-generated method stub
 		// 두수와 연산자가 주어졌을 때 산술연산을 하는 코드를 작성해보자.
-		res = calculate(num, num2, op);
+		double res = calculate(num, num2, op);
 		System.out.println(""+ num + op + num2 + "=" + res);
 		// 앞에 ""가 없으면 op를 아스키코드에서 나오는 숫자로 변환해서 num과 num2를 같이 더해버린다.
 		// 즉 계산처리를 해버린다. 그러므로 문자열로 표시하기위해 앞에 ""를 붙여 문자열임을 표시해준다.
@@ -34,13 +41,6 @@ public class MethodEx1 {
 	}
 	public static double calculate(int num, int num2, char op){
 		double res = 0.0;
-		Scanner scan = new Scanner(System.in);
-		System.out.println("num의 값을 지정해주세요.");
-		int num = scan.nextInt();
-		System.out.println("num2의 값을 지정해주세요.");
-		int num2 = scan.nextInt();
-		System.out.println("연산자를 지정해주세요.");
-		char op = scan.next().charAt(0);
 		if(op =='+'){
 			res = num + num2;
 		}

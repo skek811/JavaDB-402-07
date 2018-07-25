@@ -3,7 +3,10 @@ package day5;
 import java.util.Scanner;
 
 public class MathMethod {
-
+	/* 메소드를 사용하는 이유
+	 * 1. 코드의 중복을 최소화
+	 * 2. 메소드를 재사용
+	 */
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int i;
